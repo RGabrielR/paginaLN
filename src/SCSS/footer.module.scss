@@ -1,0 +1,21 @@
+@use './_variables' as *;
+
+.footer {
+  &__top {
+    height: 52px;
+    
+    &__logo {
+      height: 21px;
+    }
+  }
+  &__mid {
+    height: 175px;
+    &__topLinks {
+      font-size: 15px;
+    }
+  }
+  &__bottom {
+    height: 110px;
+    font-size: 15px;
+  }
+}

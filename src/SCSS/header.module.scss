@@ -1,0 +1,38 @@
+@use './_variables' as *;
+
+
+.header {
+    &__top {
+      height: 40px;
+      padding: 12px 10px 12px 16px;
+  
+      &__logo {
+        height: 16px;
+      }
+    }
+  
+    &__bottom {
+      height: 40px;
+      padding: 12px 16px;
+    }
+  
+    @media (min-width: map-get($breakpoints, lg)) {
+      &__top {
+        height: 72px;
+        &__logo {
+          height: 30px;
+        }
+        &__buttons {
+  
+          &Left{
+            width: 260px;
+          }
+  
+          &Right{
+            width: 225px;
+          }
+        }
+  
+      }
+    }
+  }

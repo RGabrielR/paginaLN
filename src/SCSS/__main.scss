@@ -1,0 +1,288 @@
+@use './_variables' as *;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #FEFEFE;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Merriweather', serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+aside.ads {
+  display: none;
+  @media (min-width: map-get($breakpoints, lg)) {
+    display: flex;
+  }
+}
+
+div.ads {
+  display: none;
+  height: 100px;
+}
+
+@each $pos in $position {
+  .#{$pos} {
+    position: $pos;
+  }
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  > * {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+.col {
+  flex: 1 0 0%;
+}
+
+@for $i from 1 through 12 {
+  .col-#{$i} {
+    flex: 0 0 auto;
+    width: calc(#{$col-base} * #{$i});
+  }
+}
+
+
+.w-100 {
+  width: 100%;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+@each $dis in $display {
+  .d-#{$dis} {
+    display: #{$dis};
+  }
+}
+
+.container {
+  max-width: 1340px;
+}
+
+.border {
+  border: 1px solid map-get($theme-colors, gray);
+}
+
+@each $br in $borders {
+  .br-#{$br} {
+    border-#{$br}: 1px solid map-get($theme-colors, gray);
+  }
+}
+
+.br-y {
+  border-top: 1px solid map-get($theme-colors, gray);
+  border-bottom: 1px solid map-get($theme-colors, gray);
+}
+.br-x {
+  border-left: 1px solid map-get($theme-colors, gray);
+  border-right: 1px solid map-get($theme-colors, gray);
+}
+
+
+@each $name, $size in $base-sizes {
+  .m-#{$name} {
+    margin: #{$size};
+  }
+  .mt-#{$name},
+  .my-#{$name} {
+    margin-top: #{$size};
+  }
+  .mb-#{$name},
+  .my-#{$name} {
+    margin-bottom: #{$size};
+  }
+  .ml-#{$name},
+  .mx-#{$name} {
+    margin-left: #{$size};
+  }
+  .mr-#{$name},
+  .mx-#{$name} {
+    margin-right: #{$size};
+  }
+}
+
+/* -----PADDINGS----- */
+@each $name, $size in $base-sizes {
+  .p-#{$name} {
+    padding: #{$size};
+  }
+  .pt-#{$name},
+  .py-#{$name} {
+    padding-top: #{$size};
+  }
+  .pb-#{$name},
+  .py-#{$name} {
+    padding-bottom: #{$size};
+  }
+  .pl-#{$name},
+  .px-#{$name} {
+    padding-left: #{$size};
+  }
+  .pr-#{$name},
+  .px-#{$name} {
+    padding-right: #{$size};
+  }
+}
+
+/* -----FLEX----- */
+
+@each $dir, $value in $flex-directions {
+  .flex-#{$dir} {
+    flex-direction: $value;
+  }
+}
+
+@each $name, $value in $flex-basic {
+  .jc-#{$name} {
+    justify-content: $value;
+  }
+
+  .ai-#{$name} {
+    align-items: $value;
+  }
+
+  .ac-#{$name} {
+    align-content: $value;
+  }
+
+  .as-#{$name} {
+    align-self: $value;
+  }
+}
+
+@each $name, $value in $flex-space {
+  .jc-#{$name} {
+    justify-content: $value;
+  }
+
+  .ac-#{$name} {
+    align-content: $value;
+  }
+}
+
+@each $name, $value in $flex-specific {
+  .ai-#{$name} {
+    align-items: $value;
+  }
+
+  .ac-#{$name} {
+    align-content: $value;
+  }
+
+  .as-#{$name} {
+    align-self: $value;
+  }
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+
+.font-bold {
+  font-weight: 700;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+@each $fs, $lh in $font-sizes {
+  .fs-#{$fs} {
+    font-size: #{$fs}px;
+    line-height: #{$lh};
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+@each $color, $value in $theme-colors {
+  .color-#{$color} {
+    color: #{$value}
+  }
+  .bg-#{$color} {
+    background-color: #{$value};
+  }
+
+  .bg-#{$color}-10 {
+    background-color: rgba($value, 0.1);
+  }
+
+  .br-#{$color} {
+    border-color: #{$color};
+  }
+}
+
+.btn {
+  padding: 12px 16px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+
+  &-primary {
+    border-color: map-get($theme-colors, gray );
+    background-color: map-get($theme-colors , yellow );
+  }
+
+  &-outline {
+    border-color: map-get($theme-colors, light-blue );
+    color: map-get($theme-colors, light-blue );
+    background-color: transparent;
+  }
+
+  &-secondary {
+    background-color: map-get($theme-colors, light-gray );
+  }
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.d-none {
+  display: none;
+}

@@ -1,0 +1,16 @@
+.footer {
+    &__top {
+      height: 50px;
+  
+      &__logo {
+        height: 16px;
+      }
+    }
+    &__bottom {
+      height: 300px;
+      &__info {
+        height: 230px;
+        width: 300px !important;
+      }
+    }
+  }

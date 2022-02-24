@@ -1,0 +1,299 @@
+{
+    "header": {
+      "volanta": "aliqua veniam ullamco ad",
+      "title": "magna commodo minim do quis consequat laborum consectetur elit adipisicing",
+      "subheader": false,
+      "img": "https://random.imagecdn.app/1920/823",
+      "marquee": true,
+      "author": "Ernestina Toscana",
+      "authorImg": false,
+      "tag": "Mundo",
+      "url": "#"
+    },
+    "focalIzquierdo": [
+      {
+        "volanta": "sint est enim",
+        "title": "cupidatat velit est voluptate laboris excepteur tempor elit ex do",
+        "subheader": "Lorem aliqua dolore amet pariatur non. Duis consectetur incididunt adipisicing eu sint tempor.",
+        "img": "https://random.imagecdn.app/768/513",
+        "marquee": true,
+        "author": "Miranda Suarez",
+        "authorImg": false,
+        "tag": false,
+        "url": "#"
+      },
+      {
+        "volanta": "laboris magna",
+        "title": "Nulla velit cupidatat excepteur culpa.",
+        "subheader": false,
+        "img": "https://random.imagecdn.app/768/513",
+        "marquee": true,
+        "author": "Omar Menendez",
+        "authorImg": false,
+        "tag": false,
+        "url": "#"
+      },
+      {
+        "volanta": "Consequat adipisicing irure deserunt.",
+        "title": "Sunt esse culpa tempor sit consectetur.",
+        "subheader": false,
+        "img": "https://random.imagecdn.app/768/513",
+        "marquee": true,
+        "author": "Juan Millan",
+        "authorImg": false,
+        "tag": false,
+        "url": "#"
+      }
+    ],
+    "notasx2": [
+      {
+        "volanta": "Aliqua ea commodo consequat id.",
+        "title": "Id incididunt eu elit do voluptate minim.",
+        "subheader": false,
+        "img": "https://random.imagecdn.app/768/513",
+        "marquee": true,
+        "author": "Ernesto Vergara",
+        "authorImg": false,
+        "tag": false,
+        "url": "#"
+      },
+      {
+        "volanta": "Et id quis amet.",
+        "title": "Eu adipisicing enim eu ad ipsum aliquip eiusmod voluptate consequat.",
+        "subheader": false,
+        "img": "https://random.imagecdn.app/768/513",
+        "marquee": true,
+        "author": "Eliseo Claps",
+        "authorImg": false,
+        "tag": false,
+        "url": "#"
+      }
+    ],
+    "focalDerecho": [
+      {
+        "volanta": "Culpa deserunt ea.",
+        "title": "Dolor mollit amet duis irure voluptate aliqua officia esse proident tempor aliquip.",
+        "subheader": "Eu adipisicing ipsum culpa sunt sint. In nostrud minim exercitation occaecat.",
+        "img": false,
+        "marquee": true,
+        "author": "Hernan Araos",
+        "authorImg": false,
+        "tag": false,
+        "url": "#"
+      },
+      {
+        "volanta": "Non mollit tempor nulla voluptate.",
+        "title": "Est sit nostrud deserunt mollit nisi irure labore laboris sit consequat nostrud ex cillum.",
+        "subheader": false,
+        "img": "https://random.imagecdn.app/768/513",
+        "marquee": true,
+        "author": "Dora Mugica",
+        "authorImg": false,
+        "tag": false,
+        "url": "#"
+      }
+    ],
+    "notasVarias": [
+      {
+        "volanta": "Excepteur.",
+        "title": "Qui id consequat amet Lorem dolor voluptate minim ad.",
+        "subheader": false,
+        "img": "https://random.imagecdn.app/768/513",
+        "marquee": true,
+        "author": "Edith Santa Ana",
+        "authorImg": false,
+        "tag": false,
+        "url": "#"
+      },
+      {
+        "volanta": "Et labore laboris.",
+        "title": "Consectetur in officia reprehenderit exercitation est sunt consequat commodo fugiat laborum.",
+        "subheader": "Incididunt incididunt minim labore nulla excepteur. Laboris aute sit laborum velit sunt in.",
+        "img": false,
+        "marquee": true,
+        "author": "Clarita Hoppe",
+        "authorImg": false,
+        "tag": false,
+        "url": "#"
+      },
+      {
+        "volanta": "Nulla.",
+        "title": "Tempor sunt esse aute ad ullamco ex non cillum pariatur fugiat non pariatur ullamco.",
+        "subheader": false,
+        "img": false,
+        "marquee": false,
+        "author": "Diana Juarez",
+        "authorImg": "Diana Juarez",
+        "tag": false,
+        "url": "#"
+      },
+      {
+        "volanta": "Esse esse.",
+        "title": "Deserunt reprehenderit anim proident pariatur ad mollit sunt in.",
+        "subheader": false,
+        "img": "https://random.imagecdn.app/768/513",
+        "marquee": false,
+        "author": false,
+        "authorImg": false,
+        "tag": false,
+        "url": "#"
+      },
+      {
+        "volanta": "Sit velit non culpa.",
+        "title": "Duis quis ad aute pariatur excepteur aute ullamco reprehenderit aliquip ex culpa.",
+        "subheader": false,
+        "img": "https://random.imagecdn.app/768/513",
+        "marquee": false,
+        "author": false,
+        "authorImg": false,
+        "tag": false,
+        "url": "#"
+      },
+      {
+        "volanta": "Consequat excepteur adipisicing non.",
+        "title": "Ea nisi pariatur nisi cillum aliquip officia Lorem ea dolore do dolore et.",
+        "subheader": false,
+        "img": "https://random.imagecdn.app/768/513",
+        "marquee": true,
+        "author": "Juan Toscano",
+        "authorImg": false,
+        "tag": false,
+        "url": "#"
+      }
+    ],
+    "opinion": [
+      {
+        "volanta": "Est aute.",
+        "title": "Deserunt est et aute amet veniam.",
+        "author": "Juliana Arzogaray",
+        "authorImg": "Juliana Arzogaray",
+        "tag": false,
+        "url": "#"
+      },
+      {
+        "volanta": "Sit cillum non.",
+        "title": "Duis id velit exercitation ad sunt fugiat pariatur fugiat enim ullamco aliqua non dolore.",
+        "subheader": false,
+        "img": false,
+        "marquee": false,
+        "author": "Enrique Rodriguez",
+        "authorImg": "Enrique Rodriguez",
+        "tag": false,
+        "url": "#"
+      },
+      {
+        "volanta": "Cillum aute esse ipsum ullamco.",
+        "title": "Incididunt aliqua Lorem laborum elit ullamco.",
+        "subheader": false,
+        "img": false,
+        "marquee": false,
+        "author": "Juan Toscano",
+        "authorImg": "Juan Toscano",
+        "tag": false,
+        "url": "#"
+      },
+      {
+        "volanta": "Aliquip magna ex Lorem.",
+        "title": "Ea magna labore minim occaecat ea consequat do ut.",
+        "subheader": false,
+        "img": false,
+        "marquee": false,
+        "author": "Fiorella Cocha",
+        "authorImg": "Fiorella Cocha",
+        "tag": false,
+        "url": "#"
+      }
+    ],
+    "notasColor": [
+      {
+        "volanta": "Exercitation do veniam duis sunt.",
+        "title": "Mollit labore sit exercitation incididunt aliquip.",
+        "subheader": false,
+        "img": "https://random.imagecdn.app/768/513",
+        "marquee": true,
+        "author": "Beatriz Aranda",
+        "authorImg": false,
+        "tag": false,
+        "url": "#"
+      },
+      {
+        "volanta": "Consectetur eiusmod et velit mollit.",
+        "title": "Deserunt fugiat sit exercitation amet adipisicing labore sit nisi deserunt.",
+        "subheader": false,
+        "img": "https://random.imagecdn.app/768/513",
+        "marquee": true,
+        "author": "Johan Juarez",
+        "authorImg": false,
+        "tag": false,
+        "url": "#"
+      },
+      {
+        "volanta": "Do reprehenderit magna.",
+        "title": "Lorem labore commodo aute anim nulla ipsum aliquip laborum eu officia officia velit reprehenderit.",
+        "subheader": false,
+        "img": "https://random.imagecdn.app/768/513",
+        "marquee": true,
+        "author": "Carlos Vega Pidutti",
+        "authorImg": false,
+        "tag": false,
+        "url": "#"
+      }
+    ],
+    "masLeidas": [
+      {
+        "volanta": "Nisi.",
+        "title": "Cupidatat quis velit laboris exercitation amet aliquip non anim ad Lorem ex.",
+        "subheader": false,
+        "img": "https://random.imagecdn.app/768/513",
+        "marquee": false,
+        "author": false,
+        "authorImg": false,
+        "tag": false,
+        "url": "#"
+      },
+      {
+        "volanta": "Reprehenderit.",
+        "title": "In ex enim do nostrud consequat esse eiusmod dolor magna quis.",
+        "subheader": false,
+        "img": "https://random.imagecdn.app/768/513",
+        "marquee": false,
+        "author": false,
+        "authorImg": false,
+        "tag": false,
+        "url": "#"
+      },
+      {
+        "volanta": "Cupidatat deserunt.",
+        "title": "Excepteur voluptate reprehenderit ex consequat nostrud.",
+        "subheader": false,
+        "img": "https://random.imagecdn.app/768/513",
+        "marquee": false,
+        "author": false,
+        "authorImg": false,
+        "tag": false,
+        "url": "#"
+      },
+      {
+        "volanta": "Sunt.",
+        "title": "Deserunt ea officia ullamco ea pariatur sit occaecat quis.",
+        "subheader": false,
+        "img": "https://random.imagecdn.app/768/513",
+        "marquee": false,
+        "author": false,
+        "authorImg": false,
+        "tag": false,
+        "url": "#"
+      }
+    ],
+    "footer": {
+      "volanta": "Voluptate exercitation magna non laboris.",
+      "title": "Velit exercitation anim tempor velit elit.",
+      "subheader": false,
+      "img": "https://random.imagecdn.app/1260/840",
+      "marquee": true,
+      "author": "Mateo Bernal",
+      "authorImg": false,
+      "tag": "Espacio patrocinado",
+      "url": "#"
+    }
+  }

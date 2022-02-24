@@ -1,0 +1,15 @@
+@use './_variables' as *;
+
+.article{
+        &__img {
+          object-fit: cover;
+          aspect-ratio: 3/2;
+        }
+      
+        &__authorImg {
+          width: 80px !important;
+          aspect-ratio: 1/1;
+          border-radius: 50%;
+        }
+      
+}
