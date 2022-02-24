@@ -19,8 +19,8 @@ function App() {
   const [dolarHoy, setDolarHoy] = useState({})
   useEffect(() => {
  Promise.all([
-     axios.get('https://db-dolar-hoy.herokuapp.com/dolaroficial').then(res => setDolarHoy({...dolarHoy,dolarBNA : res.data})),
-      axios.get('https://db-dolar-hoy.herokuapp.com/dolarblue').then(res => setDolarHoy({...dolarHoy, dolarBlue : res.data}))  
+     axios.get('https://db-dolar-hoy.herokuapp.com/dolaroficial').then(res => setDolarHoy({...dolarHoy,dolarBNA : res.data})).catch(err => console.log(err)),
+      axios.get('https://db-dolar-hoy.herokuapp.com/dolarblue').then(res => setDolarHoy({...dolarHoy, dolarBlue : res.data})).catch(err => console.log(err))  
 ])
   }, [dolarHoy])
 
